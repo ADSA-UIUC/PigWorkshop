@@ -1,0 +1,13 @@
+(Amy,Killers,Vocals)
+(Amy,Killers,Bass)
+(,,Guitar)
+(Billy,Nails,)
+(Kevin,Loud,)
+
+(Amy,Killers,Vocals)
+(Amy,Killers,Bass)
+(Billy,Nails,)
+(Kevin,Loud,)
+
+(Billy,Nails,)
+(Kevin,Loud,)

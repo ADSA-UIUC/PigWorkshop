@@ -1,0 +1,12 @@
+play = load '/tutorial/pig/ex5/play' as (name:chararray, instrument:chararray);
+player = load '/tutorial/pig/ex5/player' as (name:chararray, band:chararray);
+tempouter = join player by name full outer, play by name;
+fullouter = foreach tempouter generate player::name as name,band,instrument;
+dump fullouter;
+-- store fullouter into 'outerjoin_result1';
+templeft = join player by name left outer, play by name;
+leftouter = foreach templeft generate player::name as name, band, instrument;
+dump leftouter;
+-- store leftouter into 'outerjoin_result2';
+leftouter = filter leftouter by instrument is null;
+-- store leftouter into 'outerjoin_result3';

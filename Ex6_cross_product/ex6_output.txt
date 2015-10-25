@@ -1,0 +1,44 @@
+(Sherry^AAddress^ACity^Bwww.yahoo.com^Cwww.google.com^Ccnn.com^D)
+(Lucy^AAddress^ACity^Bwww.baidu.com^Cillinois.edu^Ccnn.com^D)
+(Lily^AAddress^ACity^Bwww.yahoo.com^Cwww.baidu.com^Cillinos.edu^D)
+mydata: {str: chararray}
+
+(Sherry^AAddress^ACity,www.yahoo.com^Cwww.google.com^Ccnn.com^D)
+(Lucy^AAddress^ACity,www.baidu.com^Cillinois.edu^Ccnn.com^D)
+(Lily^AAddress^ACity,www.yahoo.com^Cwww.baidu.com^Cillinos.edu^D)
+split1: {first: chararray,second: chararray}
+
+(Sherry,AddressCity,(www.yahoo.com,www.google.com,cnn.com))
+(Lucy,AddressCity,(www.baidu.com,illinois.edu,cnn.com))
+(Lily,AddressCity,(www.yahoo.com,www.baidu.com,illinos.edu))
+split2: {name: chararray,rest: chararray,websites: ()}
+
+(Sherry,www.yahoo.com,www.google.com,cnn.com)
+(Lucy,www.baidu.com,illinois.edu,cnn.com)
+(Lily,www.yahoo.com,www.baidu.com,illinos.edu)
+Schema for tempresult1 unknown.
+
+(Sherry,Sherry)
+(Sherry,www.yahoo.com)
+(Sherry,www.google.com)
+(Sherry,cnn.com)
+(Lucy,Lucy)
+(Lucy,www.baidu.com)
+(Lucy,illinois.edu)
+(Lucy,cnn.com)
+(Lily,Lily)
+(Lily,www.yahoo.com)
+(Lily,www.baidu.com)
+(Lily,illinos.edu)
+tempresult2: {name: bytearray,website: NULL}
+
+(Sherry,www.yahoo.com)
+(Sherry,www.google.com)
+(Sherry,cnn.com)
+(Lucy,www.baidu.com)
+(Lucy,illinois.edu)
+(Lucy,cnn.com)
+(Lily,www.yahoo.com)
+(Lily,www.baidu.com)
+(Lily,illinos.edu)
+result: {name: bytearray,website: NULL}

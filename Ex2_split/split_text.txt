@@ -1,0 +1,6 @@
+Lily Wang	F	1000
+Tom Clark	M	1500
+Alan Walker	M	400
+Lucy Urbany	F	500
+Jimmy John	M	900
+Mary Yang	F	1300

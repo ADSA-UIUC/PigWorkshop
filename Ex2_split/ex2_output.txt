@@ -1,0 +1,15 @@
+(Lily Wang,F,1000)
+(Lucy Urbany,F,500)
+(Mary Yang,F,1300)
+
+(Tom Clark,M,1500)
+(Alan Walker,M,400)
+(Jimmy John,M,900)
+
+(Tom Clark,M,1500)
+(Mary Yang,F,1300)
+
+(Lily Wang,F,1000)
+(Alan Walker,M,400)
+(Lucy Urbany,F,500)
+(Jimmy John,M,900)
